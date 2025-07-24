@@ -1,0 +1,21 @@
+To run the React application, follow these steps:
+
+npm create vite@latest
+
+Then select the project name and choose the "React" template when prompted.
+After the project is created, navigate into the project directory:
+
+cd your-project-name
+Install the necessary dependencies:
+npm install
+
+Start the development server:
+npm run dev
+
+Install bootstrap for styling:
+npm i bootstrap(current version 5.3.7)
+
+Import Bootstrap CSS in your main entry file (usually `main.jsx` or `index.js`):
+import 'bootstrap/dist/css/bootstrap.min.css';
+
+
