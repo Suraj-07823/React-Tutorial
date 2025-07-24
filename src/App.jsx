@@ -5,6 +5,9 @@ import "./App.css";
 import React from 'react';
 import First from './component/First';
 import Second from './component/Second';
+import Demoboot from "./component/demoboot";
+import Gridcol from './component/Gridcol';
+
 
 function App() {
   // const [count, setCount] = useState(0);
@@ -17,6 +20,9 @@ function App() {
       </div>
       <First></First>
       <Second></Second>
+      <Demoboot></Demoboot>
+      <Gridcol></Gridcol>
+      
     </>
   );
 }
