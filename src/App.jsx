@@ -7,6 +7,7 @@ import First from './component/First';
 import Second from './component/Second';
 import Demoboot from "./component/demoboot";
 import Gridcol from './component/Gridcol';
+import Carddemo from './component/Carddemo';
 
 
 function App() {
@@ -22,6 +23,7 @@ function App() {
       <Second></Second>
       <Demoboot></Demoboot>
       <Gridcol></Gridcol>
+      <Carddemo></Carddemo>
       
     </>
   );
